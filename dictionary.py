@@ -68,13 +68,17 @@ veg = {"cabbage": "every child's favourite",
 # veggie.update(fruit)
 #
 # print(veggie)
-print(veg)
-print("="*100)
-print(fruit)
-print("="*100)
+# print(veg)
+# print("="*100)
+# print(fruit)
+# print("="*100)
 
 # copying fruits
 nice_and_nasty = fruit.copy()
 nice_and_nasty.update(veg)
 print(nice_and_nasty)
+print("="*100)
+for k in sorted(nice_and_nasty.keys()):
+    print(nice_and_nasty[k])
 
+print(sorted(nice_and_nasty.keys()))
