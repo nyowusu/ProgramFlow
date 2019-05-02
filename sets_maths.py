@@ -30,3 +30,16 @@ except KeyError:
 print("Length of evens {}".format(len(evens)))
 evens.discard(3)
 print("Length of evens {}".format(len(evens)))
+
+
+# my_dict = {1: "one", 2: "two", 3: "three"}
+# print(my_dict)
+#
+# temp = {4: "four", 5: "five", 6: "six"}
+# my_dict.update(temp)
+# print(my_dict)
+# my_dict.update(y="seven", p="eight")
+# print(my_dict)
+#
+# for key in my_dict:
+#     print(my_dict[key])
